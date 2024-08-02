@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cosmetics Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GreatAfrica Cosmetics</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#cart" id="cart-icon"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to GreatAfrica Cosmetics</h2>
+            <p>Your one-stop shop for all things beauty.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="category-buttons">
+                <button class="category-button" data-category="fragrances">Fragrances</button>
+                <button class="category-button" data-category="soaps">Soaps</button>
+                <button class="category-button" data-category="skincare">Skincare</button>
+            </div>
+
+            <div id="fragrances" class="product-category">
+                <h3>Fragrances</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://www.bing.com/th?id=OPEC.cOaaDc2exT6zyg474C474&o=5&pid=21.1&w=124&h=124&qlt=100&dpr=1&bw=6&bc=FFFFFF" alt="Fragrance 1">
+                        <h3>Lemon scent fragrance</h3>
+                        <p>R65.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.fragrancex.com/images/products/sku/large/fblack34m.webp" alt="Fragrance 2">
+                        <h3>F Black By salvatore Ferragamo</h3>
+                        <p>R592.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.fragrancex.com/images/products/sku/large/voyams.webp" alt="Fragrance 1">
+                        <h3>Nautica Voyage</h3>
+                        <p>R350.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.fragrancex.com/images/products/sku/large/emt34tt.webp" alt="Fragrance 1">
+                        <h3>Eternity By Calvin Klein</h3>
+                        <p>R591.17</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.fragrancex.com/images/products/sku/large/lacblanc.webp" alt="Fragrance 1">
+                        <h3>Lacoste Eau De Lacoste L.12.12 Blanc Cologne</h3>
+                        <p>R959.20</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.fragrancex.com/images/products/sku/large/clm42.webp" alt="Fragrance 1">
+                        <h3>Chrome Legend Cologne</h3>
+                        <p> R 643.70</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div id="soaps" class="product-category" >
+                <h3>Soaps</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/45055c7bd6625e97d8b770a5cfa190c0.jpg?imageView2/2/w/800/q/70/format/webp" alt="Soap 1">
+                        <h3>Natural Handmade Sandalwood Soap Handmade Essential Oil Soap Cleansing Bath Soap Hydrating And Moisturizing</h3>
+                        <p>R86.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/open/2023-03-16/1678955390055-1d0e9035e29a47d28c940884531b0f48-goods.jpeg?imageView2/2/w/800/q/70/format/webp" alt="Soap 2">
+                        <h3>Cologne Scented Soap, Mens Mite Removal Bar Soap, Deep Cleans Pores, Removes Dead Skin, Deep Skin Cleansing And Oil-Control, Rich And Dense Foam, Moisturizing Scented Bath Soap For Men, Mild And Non-irritating Travel Essentials</h3>
+                        <p>R146.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/fancy/7bfc47b4-42ab-4279-8308-c123fcd923ab.jpg?imageView2/2/w/800/q/70/format/webp" alt="Soap 2">
+                        <h3> 2.28 Fl.Oz Niacinamide Silk Soap, Goat Milk Soap, Facial Wash Soap, Shower Soap, Cleansing, Facial Oil Control, Herbal Nourishing, Handmade Essential Oil Soap, Milk Fragrance, Suitable For Men And Women 80g Father's Day Gift</h3>
+                        <p>R146.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/bd12054a028908d8320063a7279c78e0.jpg?imageView2/2/w/800/q/70/format/webp" alt="Soap 2">
+                        <h3>Turmeric Soap Bar For Face & Body, Turmeric Body Wash Soap, Rejuvenates & Cleanses Skin </h3>
+                        <p>R146.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/fancy/05ebc8d0-b9ee-41d5-8ee9-aa8f6ef2402c.jpg?imageView2/2/w/800/q/70/format/webp" alt="Soap 2">
+                        <h3>Juhop Aloe Vera Natural Soap 100g, Deep Cleansing Handmade Bar for Face, Hands, Feet, Body, Moisturizing, Refreshing for Healthy Youthful Skin, Suitable for Men and Women, Alcohol-Free, Coconut Active Ingredient, Cleansing Sheet Form, Tightens Pores </h3>
+                        <p>R79</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/4ea4b8f161cf3d2627c33afe9056343e.jpg?imageView2/2/w/800/q/70/format/webp" alt="Soap 2">
+                        <h3>Rosemary Shampoo Soap | Deep Cleansing Oil Control Beauty Hair Care Hair Strengthens Essential Oil Shampoo Bar Moisturizing Scalp Solution For Men Women </h3>
+                        <p>R46</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="skincare" class="product-category">
+                <h3>Skincare</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="skincare1.jpg" alt="Skincare 1">
+                        <h3>Skincare 1</h3>
+                        <p></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="skincare2.jpg" alt="Skincare 2">
+                        <h3>Skincare 2</h3>
+                        <p></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <div id="cart-summary">
+                <!-- Cart items will be dynamically added here -->
+                <p>Your cart is empty.</p>
+            </div>
+            <button id="checkout-button">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <section id="checkout" style="display:none;">
+        <div class="container">
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Complete Purchase</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>GreatAfrica Cosmetics is dedicated to providing the best cosmetics and skincare products to help you look and feel your best.We offer a wide range of products from Fragrances to different soaps and skin care products best suited for your skin type.Our Products are 100% organic and have all passed the necessary standards and regulations tests by trusted bodies .</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GreatAfrica Cosmetics. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/YourPageName" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
